@@ -34,18 +34,20 @@
 
 | 项目 | 简介 | 状态 |
 | :--- | :--- | :--- |
-| **Metheus (弥)** | 运行在本地的虚拟 AI 软件公司。精准上下文注入 + 原子化任务 + 滚动项目宪法... → 任何模型都能经济地完成高质量交付。 | 🔒 Alpha · 资金耗尽，战术性暂停 |
+| **Metheus (弥)** | 运行在本地的虚拟 AI 软件公司。精准上下文注入 + 原子化任务 + 滚动项目宪法 → 任何模型都能经济地完成高质量交付。Claude Code 串行验证已通过，下一步：自研 Rust API 直连并行引擎，速度提升数十倍。 | 🔒 Alpha · 资金耗尽，战术性暂停 |
 | **Morph (另我 / Echo)** | 有记忆的情感陪伴 AI。仍在维护和调试中。 | 🟡 维护模式 |
 
 <hr>
 
 ### ⚡ 现状 / Where I Stand
 
-Metheus 的核心命题已被验证——多角色 AI 团队可以从"想法"自动走到"代码"，项目宪法让产出质量不随对话轮次衰减，细粒度 Git 回退给了用户真正的安全感。但前端刚完成从单一聊天界面到任务控制台的重构，前后端对齐的调试消耗让我弹尽粮绝——我用吃饭的钱充 API，最后一个 token 包已经用完。
+Metheus 的核心命题已被验证——多角色 AI 团队可以从"想法"自动走到"代码"，项目宪法让产出质量不随对话轮次衰减，细粒度 Git 回退给了用户真正的安全感。Claude Code 串行执行已跑通，下一个里程碑是自研 Rust 并行引擎：首任务打基础，后续子任务并行注入，共享一次上下文，速度提升数十倍，token 大幅下降。
+
+但前端刚完成从单一聊天界面到任务控制台的重构，前后端对齐的调试消耗让我弹尽粮绝——我用吃饭的钱充 API，最后一个 token 包已经用完。
 
 **这不是放弃。是战术性暂停。** 经济状况好转后立即回来。
 
-> *Metheus's core thesis is proven: a multi-role AI team autonomously goes from idea to code, the project constitution prevents quality decay, fine-grained Git rollback works. But the frontend overhaul from single chat to full task console drained my resources — I've been paying for API tokens with meal money. The last pack is gone. This is a tactical pause, not quitting. I'll be back.*.
+> *Metheus's core thesis is proven: a multi-role AI team autonomously goes from idea to code, the constitution prevents quality decay, fine-grained Git rollback works. Claude Code serial execution is verified — the next milestone is a self-built Rust parallel engine: first subtask lays the foundation, subsequent subtasks inject code in parallel, sharing a single context injection. 10x+ speed, massive token savings. But the frontend overhaul drained me — I've been paying for API tokens with meal money. The last pack is gone. This is a tactical pause, not quitting. I'll be back.*
 
 紧急技术债务 / *Urgent tech debt*：
 

@@ -100,6 +100,7 @@ Metheus 的核心命题已被验证——多角色 AI 团队可以从"想法"自
   <br>
   <img src="https://img.shields.io/badge/QQ_Mail-1779259341@qq.com-168DE2?style=flat&logo=tencentqq&logoColor=white" alt="QQ Mail">
 </p>
+<p>入驻爱发电</p>
 
 <p align="center">
   <em>每个声音都很重要，包括你的。<br>Every voice matters. Yours too.</em>

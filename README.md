@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <strong>16岁 · 中度抑郁 · 休学 · 自学编程</strong><br>
+  <strong>17岁 · 中度抑郁 · 休学 · 自学编程</strong><br>
   甘肃农村的粮仓里，用 AI 为自己和他人打造工具。<br>
   <em>16yo · Self-taught · Rural China · Building AI tools from a grain warehouse.</em>
 </p>

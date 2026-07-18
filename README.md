@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&repeat=false&width=800&height=60&lines=Hey%2C+I%27m+entzauberung;16yo+Indie+Developer+from+rural+China" alt="Hey, I'm entzauberung" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&repeat=false&width=800&height=60&lines=Hey%2C+I%27m+entzauberung;17yo+Indie+Developer+from+rural+China" alt="Hey, I'm entzauberung" />
 </h1>
 
 <p align="center">

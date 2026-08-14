@@ -69,7 +69,7 @@ PRP（Progressive Reasoning Protocol）是通用的渐进式推理与执行编�
 
 ## 愿景与实践 / Vision & Practice
 
-> 我的五年目标，是通过持续的系统性优化，把 AI 执行的 token 成本压到接近电费的量级，让每个人都能以一杯奶茶的价格，使用更快、更便宜、真正可以用于生产的 AI。
+> 我的五年目标，是通过持续的系统性优化，把 AI 执行的 token 成本压到接近电费自来水费的量级，让每个人都能以一杯奶茶的价格，使用更快、更便宜、真正可以用于生产的 AI。
 
 我坚持马列毛主义，并将这一立场贯彻到我的生活实践和技术实践中。
 
@@ -84,6 +84,6 @@ PRP（Progressive Reasoning Protocol）是通用的渐进式推理与执行编�
 ---
 
 <p align="center">
-  <strong>二十步天注定，逆流河上任我行。</strong><br>
+  <strong>二十七步天注定，逆流河上任我行。</strong><br>
   <sub>Искров · 甘肃</sub>
 </p>

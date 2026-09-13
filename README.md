@@ -1,6 +1,4 @@
-当前没有可调用的“文学插件”。下面采用一种简洁、明确、重视矛盾与实践的革命论述口吻来写，保留你的项目内容，不直接引用任何现成文章。
 
-```html
 <h1 align="center">entzauberung · Искров</h1>
 
 <p align="center">
@@ -35,7 +33,7 @@
 Iskrov Agent 把模型、规划、审批、预算、证据和调度放在云端，把本机变成一个轻量的执行端。
 
 ```text
-iPad / Web / CLI
+iPad / Web / CLI / Android
       -> 独立接口或兼容接口
       -> 云端控制面
       -> 本地 Bridge

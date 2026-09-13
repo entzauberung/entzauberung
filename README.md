@@ -2,10 +2,9 @@
 <h1 align="center">entzauberung · Искров</h1>
 
 <p align="center">
-  <strong>正在建设 Iskrov Agent：改变 Agent 的使用方式。</strong><br>
-  <em>Building Iskrov Agent: changing how Agents are used.</em>
+  <strong>我现在做三件事：Iskrov Agent 改变 Agent 的用法，PRP 保证 Agent 的长时运行，Metheus 把复杂任务变成可以执行的生产单元。</strong><br>
+  <em>Iskrov changes how Agents are used; PRP keeps them reliable over long runs; Metheus turns complex work into executable units.</em>
 </p>
-
 <p align="center">
   <a href="https://github.com/entzauberung/iskrov-agent">
     <img src="https://img.shields.io/badge/Focus-Iskrov%20Agent-24292f?style=flat-square" alt="Focus: Iskrov Agent">
@@ -16,15 +15,12 @@
 </p>
 
 <p align="center">
-  独立开发者 · 甘肃 · 在粮仓里学会编程
+  独立开发者 · 甘肃 · 高中双相情感障碍和语言障碍休学自学编程
 </p>
 
 ---
-
-> Agent 的问题，不只是能不能回答问题。  
-> 更重要的是：它能不能行动，能不能受控，能不能在很久以后仍然记得自己做过什么。
-
-## 当前主线 / Current Focus
+> 一个管用法，一个管过程，一个管生产。  
+> 三条路，归根到底，都是为了让 AI 真正进入软件生产。
 
 ### Iskrov Agent [<sup>1</sup>](https://github.com/entzauberung/iskrov-agent)
 
@@ -67,7 +63,7 @@ PRP 研究的是更长的问题：
 
 PRP 关注公开事实、Evidence、版本、预算、恢复和停止原因。它不保存私有思维链，也不让模型凭一句话宣布任务完成。
 
-未来还会研究 GPT-6 Astra 这类大模型内部推理回环的限制、退出条件和训练作用。
+PRP 当前只约束模型输出之后的 Agent 执行过程。GPT-6 Astra 公开展现出的内部循环推理，让我看到了下一步研究方向：未来把有价值的内部推理结果纳入 PRP，使协议从外部的 run 管理，逐步延伸到模型内部的推理过程。
 
 ### Metheus（弥） [<sup>3</sup>](https://github.com/entzauberung/metheus)
 

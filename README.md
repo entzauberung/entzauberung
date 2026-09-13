@@ -2,8 +2,8 @@
 <h1 align="center">entzauberung · Искров</h1>
 
 <p align="center">
-  <strong>我现在做三件事：Iskrov Agent 改变 Agent 的用法，PRP 保证 Agent 的长时运行，Metheus 把复杂任务变成可以执行的生产单元。</strong><br>
-  <em>Iskrov changes how Agents are used; PRP keeps them reliable over long runs; Metheus turns complex work into executable units.</em>
+  <strong>我现在做三件事：Iskrov Agent 改变 Agent 的用法，PRP 研究 Agent 的长时运行，Metheus 把复杂任务变成可以执行的生产单元。</strong><br>
+  <em>Iskrov changes how Agents are used; PRP studies reliable long-running processes; Metheus turns complex work into executable units.</em>
 </p>
 <p align="center">
   <a href="https://github.com/entzauberung/iskrov-agent">
@@ -19,8 +19,8 @@
 </p>
 
 ---
-> 一个管用法，一个管过程，一个管生产。  
-> 三条路，归根到底，都是为了让 AI 真正进入软件生产。
+> 现在的 Agent 已经会推理、调用工具、操作电脑。  
+> 真正困难的是，任务变长以后，谁来保存状态、守住边界，并让它在失败和中断之后继续。
 
 ### Iskrov Agent [<sup>1</sup>](https://github.com/entzauberung/iskrov-agent)
 
@@ -29,7 +29,7 @@
 Iskrov Agent 把模型、规划、审批、预算、证据和调度放在云端，把本机变成一个轻量的执行端。
 
 ```text
-iPad / Web / CLI / Android
+iPad / Web / CLI / Android(in progress) / all(plan)
       -> 独立接口或兼容接口
       -> 云端控制面
       -> 本地 Bridge
@@ -61,9 +61,8 @@ PRP 研究的是更长的问题：
 执行 -> 事实 -> 验证 -> 比较 -> 修订或停止
 ```
 
-PRP 关注公开事实、Evidence、版本、预算、恢复和停止原因。它不保存私有思维链，也不让模型凭一句话宣布任务完成。
-
-PRP 当前只约束模型输出之后的 Agent 执行过程。GPT-6 Astra 公开展现出的内部循环推理，让我看到了下一步研究方向：未来把有价值的内部推理结果纳入 PRP，使协议从外部的 run 管理，逐步延伸到模型内部的推理过程。
+目前 PRP 只约束模型输出之后的外部执行过程。近期围绕 GPT-6 Astra 出现了 recurrent depth 和 looped transformer 的公开讨论，这让我看到另一条研究方向：未来把模型内部回环中有价值的中间输出纳入 PRP。
+这部分目前仍是研究计划，尚未被实现，也不代表 GPT-6 Astra 的内部结构已经得到官方确认。
 
 ### Metheus（弥） [<sup>3</sup>](https://github.com/entzauberung/metheus)
 
@@ -71,10 +70,10 @@ PRP 当前只约束模型输出之后的 Agent 执行过程。GPT-6 Astra 公开
 
 Metheus 是我不会放弃的项目。
 
-它要把复杂需求拆成小模型可以完成的执行单元，再用并行工具把这些单元组织起来。
+它要把复杂需求拆成小模型可以完成的执行单元，再用并行工具把这些单元组织起来，探索更低成本、更高吞吐的真实软件生产。
 
 ```text
-PRP       -> 约束过程
+PRP       -> 约束外部过程
 Iskrov    -> 连接控制与执行
 Metheus   -> 编译任务并推动生产
 ```

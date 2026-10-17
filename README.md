@@ -2,8 +2,7 @@
 <h1 align="center">entzauberung · Искров</h1>
 
 <p align="center">
-  <strong>我现在做三件事：Iskrov Agent 改变 Agent 的用法，PRP 研究 Agent 的长时运行，Metheus 把复杂任务变成可以执行的生产单元。</strong><br>
-  <em>Iskrov changes how Agents are used; PRP studies reliable long-running processes; Metheus turns complex work into executable units.</em>
+  <strong>我Iskrov Agent，PRP ，Metheus 均停止开发，学的太浅，控制应该在模型输出前伸到循环深度中，而不是在输出之后控制的玩具，集群拆分执行单元应该是由集群MoE接口最小减小偏差和成本，而不是输出后重排的玩具，正在研究中</strong><br>
 </p>
 <p align="center">
   <a href="https://github.com/entzauberung/iskrov-agent">
@@ -22,69 +21,6 @@
 > 现在的 Agent 已经会推理、调用工具、操作电脑。  
 > 真正困难的是，任务变长以后，谁来保存状态、守住边界，并让它在失败和中断之后继续。
 
-### Iskrov Agent [<sup>1</sup>](https://github.com/entzauberung/iskrov-agent)
-
-> **云端控制，本地执行。**
-
-Iskrov Agent 把模型、规划、审批、预算、证据和调度放在云端，把本机变成一个轻量的执行端。
-
-```text
-iPad / Web / CLI / Android(in progress) / all(plan)
-      -> 独立接口或兼容接口
-      -> 云端控制面
-      -> 本地 Bridge
-      -> 授权工作区中的工具
-```
-
-一个只会读取、搜索、修改和测试的轻量 Agent，也可以接入 Iskrov 进行 coding。
-
-Codex 的 ultra 模式、Claude 的 ultraworkflow，说明了过程控制的力量。但这种力量不应只属于某一个客户端，也不应只属于某一个模型。
-
-Iskrov Agent 要做的，是把控制面独立出来，让不同模型、不同设备和不同本地执行端都能参加同一个任务过程。
-
-本地 Agent 有工具，却常常被绑定在客户端里。纯云 Agent 有距离，却不一定能够安全地进入本地工作区。
-
-Iskrov 把两者接起来，让任务能够被远程发起、人工批准、持续验证，也能够在中断以后继续前进。
-
-### PRP [<sup>2</sup>](https://github.com/entzauberung/prp)
-
-> **Progressive Reasoning Protocol**  
-> 研究 Agent 如何长期运行而不失去方向
-
-传统的渐进式推理，常常研究一次任务怎样更快、更准。
-
-PRP 研究的是更长的问题：
-
-> 一个 run 运行了几天、几周，甚至几百天以后，怎样不把错误当成成功，不把遗忘当成历史。
-
-```text
-执行 -> 事实 -> 验证 -> 比较 -> 修订或停止
-```
-
-目前 PRP 只约束模型输出之后的外部执行过程。近期围绕 GPT-6 Astra 出现了 recurrent depth 和 looped transformer 的公开讨论，这让我看到另一条研究方向：未来把模型内部回环中有价值的中间输出纳入 PRP。
-这部分目前仍是研究计划，尚未被实现，也不代表 GPT-6 Astra 的内部结构已经得到官方确认。
-
-### Metheus（弥） [<sup>3</sup>](https://github.com/entzauberung/metheus)
-
-> **面向真实软件生产的任务编译系统 · `v0.0.4` 进行中**
-
-Metheus 是我不会放弃的项目。
-
-它要把复杂需求拆成小模型可以完成的执行单元，再用并行工具把这些单元组织起来，探索更低成本、更高吞吐的真实软件生产。
-
-```text
-PRP       -> 约束外部过程
-Iskrov    -> 连接控制与执行
-Metheus   -> 编译任务并推动生产
-```
-
-我会继续探索小模型、并行工具和低成本执行，并在 Iskrov Agent 稳定后，为 Metheus 制定可以真正落地的方案。
-
-## 早期项目 / Earlier Work
-
-### Morph（另我） [<sup>4</sup>](https://github.com/entzauberung/morph)
-
-一个由 Echo 与 Lens 组成的 AI 情感陪伴和自我梳理工具，以 CBT 为基础，目前仍然维护。
 
 ## 开源与现实 / Open Source & Reality
 
@@ -116,4 +52,4 @@ Metheus   -> 编译任务并推动生产
   <strong>二十七步天注定，逆流河上任我行。</strong><br>
   <sub>Искров · 甘肃</sub>
 </p>
-```
+

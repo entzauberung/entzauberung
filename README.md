@@ -27,7 +27,7 @@
 
 ## 技术栈 / Tech Stack
 AI native<br>
-系统古法过
+系统的古法写过
 `Rust` · `TypeScript` · `Python` · `React` · `Tauri` · `FastAPI`  
 `Claude Code` · `Codex` · `Kimi CLI` · `Linux / Kali` · `Docker`
 

@@ -26,7 +26,7 @@
 我坚持马列毛主义，并将这一立场贯彻到我的生活实践和技术实践中。
 
 ## 技术栈 / Tech Stack
-AI native
+AI native<br>
 系统古法过
 `Rust` · `TypeScript` · `Python` · `React` · `Tauri` · `FastAPI`  
 `Claude Code` · `Codex` · `Kimi CLI` · `Linux / Kali` · `Docker`

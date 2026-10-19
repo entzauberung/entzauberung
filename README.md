@@ -2,7 +2,7 @@
 <h1 align="center">entzauberung · Искров</h1>
 
 <p align="center">
-  <strong>我Iskrov Agent，PRP ，Metheus 均停止开发，才疏学浅做的玩具，控制应该在模型输出前伸到循环深度中，而不是在输出之后控制的玩具<br>集群拆分执行单元应该是由集群MoE接口最小减小偏差和成本，而不是输出后重排的玩具<br>正在研究中</strong><br>
+  <strong>我Iskrov Agent，PRP ，Metheus 均停止开发，才疏学浅做的玩具<br>控制应该在模型输出前伸到循环深度中，而不是在输出之后控制的玩具<br>集群拆分执行单元应该是由集群MoE接口最小减小偏差和成本，而不是输出后重排的玩具<br>正在研究中</strong><br>
 </p>
 
 ---

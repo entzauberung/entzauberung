@@ -12,26 +12,26 @@
 > metheus后续会有一个更底层的解决方式
 
 
-## 开源与现实 / Open Source & Reality
+## 开源与现实
 
 我在工作以后写代码，在生活留下的缝隙里维护项目。
 
 进度有时很慢，但方向没有改变。事情总要有人去做，软件也总要有人从第一行写起。
 
-## 愿景与实践 / Vision & Practice
+## 愿景与实践
 
 > 让 Agent 可以被接入、被控制、被验证、被恢复。  
 > 让真正用于生产的 AI，不再只是少数人的工具。
 
 我坚持马列毛主义，并将这一立场贯彻到我的生活实践和技术实践中。
 
-## 技术栈 / Tech Stack
+## 技术栈 
 AI native<br>
 系统的古法写过
 `Rust` · `TypeScript` · `Python` · `React` · `Tauri` · `FastAPI`  
 `Claude Code` · `Codex` · `Kimi CLI` · `Linux / Kali` · `Docker`
 
-## 联系我 / Contact
+## 联系我
 
 **微信** `praxis_entzauberung` &nbsp;·&nbsp;
 **QQ** `1779259341` &nbsp;·&nbsp;

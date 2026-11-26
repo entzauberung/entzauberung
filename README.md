@@ -7,13 +7,13 @@
 
 ---
 > 现在的 Agent 已经会推理、调用工具、操作电脑。  
-> 真正困难的是，任务变长以后，谁来保存状态、守住边界，并让它在失败和中断之后继续。
+> 真正困难的是，RSI怎么实现。
 > prp已经被loopX完美替代，iskrov agent后续也将被各agent bot手机版替代
 > metheus后续会有一个更底层的解决方式
 
 ## 愿景与实践
 
-> 让 Agent 可以被接入、被控制、被验证、被恢复。  
+> 实现RSI。  
 > 让真正用于生产的 AI，不再只是少数人的工具。
 
 我坚持马列毛主义，并将这一立场贯彻到我的生活实践和技术实践中。
@@ -22,7 +22,7 @@
 AI native<br>
 系统的古法写过
 `Rust` · `TypeScript` · `Python` · `React` · `Tauri` · `FastAPI`  
-`Claude Code` · `Codex` · `Kimi CLI` · `Linux / Kali` · `Docker`
+`Claude Code` · `Codex` · `Linux / Kali` · `Docker`
 
 ## 联系我
 

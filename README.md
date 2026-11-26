@@ -34,6 +34,6 @@ AI native<br>
 
 <p align="center">
   <strong>二十七步天注定，逆流河上任我行。</strong><br>
-  <sub>Искров · 甘肃</sub>
+  <sub>Искров</sub>
 </p>
 
